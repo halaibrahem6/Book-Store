@@ -1,0 +1,256 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navlinks {
+  align-items: center;
+  display: flex;
+  margin-right: 500px;
+}
+
+.container0 {
+  width: 90%;
+  margin: 0 auto;
+}
+
+header {
+  background: #f8f8f8;
+  padding: 10px 0;
+  border-bottom: 2px solid rgba(0, 140, 140, 0.5);
+  box-shadow: 0 4px 10px -6px rgba(0, 140, 140, 0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+}
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header nav .logo {
+  width: 90px;
+}
+header nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+header nav ul li {
+  display: inline;
+}
+header nav ul li a {
+  text-decoration: none;
+  color: #333;
+}
+
+.container1 {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+}
+
+.intro {
+  max-width: 100%;
+  background: transparent;
+  padding: 50px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.intro:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url("C:/Users/HPCO/Desktop/ASAL Training/Firsttask/image/about.png") no-repeat center center;
+  background-size: cover;
+  opacity: 0.07;
+  z-index: -1;
+}
+.intro .intro-text {
+  max-width: 50%;
+  margin-top: 150px;
+  margin-right: 50px;
+}
+.intro .intro-text h1 {
+  color: #008c8c;
+  font-size: 48px;
+  margin: 0;
+}
+.intro .intro-text h1 .highlight {
+  color: black;
+}
+.intro .intro-text p {
+  color: black;
+  margin-top: 50px;
+}
+.intro .intro-text .btn {
+  display: inline-block;
+  background: #008c8c;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 50px;
+}
+.intro .intro-image {
+  max-width: 50%;
+}
+.intro .intro-image img {
+  max-width: 650px;
+  width: 100%;
+  margin-top: 160px;
+  margin-left: 50px;
+}
+
+i {
+  color: #008c8c;
+  margin-top: 10px;
+  font-size: 30px;
+  margin-bottom: 0;
+}
+
+.container2 {
+  width: 90%;
+  display: flex;
+  margin-top: 40px;
+  margin-left: 120px;
+  justify-content: space-around;
+}
+
+.features {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  width: 100%;
+  margin-top: 150px;
+}
+.features .feature {
+  max-width: 425px;
+  background-color: white;
+  width: 17%;
+  height: 125px;
+  border: 1px solid hsl(196, 94%, 67%);
+  box-shadow: 0 0 10px rgba(0, 140, 140, 0.5);
+  justify-content: space-around;
+}
+.features .feature h2 {
+  color: black;
+  font-size: 18px;
+  margin-top: 10px;
+}
+.features .feature p {
+  font-size: 12px;
+  padding-bottom: 50px;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #008c8c;
+  border-radius: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #f0f0f0;
+}
+
+.aboutus {
+  max-width: 100%;
+  display: flex;
+  margin-top: 40px;
+}
+.aboutus .about-img {
+  max-width: 50%;
+}
+.aboutus .about-img img {
+  max-width: 80%;
+}
+.aboutus .about-text {
+  max-width: 50%;
+}
+.aboutus .about-text h3 {
+  font-weight: bold;
+  font-size: 36px;
+  margin-top: 120px;
+}
+.aboutus .about-text p {
+  font-size: 16px;
+  padding-bottom: 50px;
+}
+.aboutus .about-text .btn1 {
+  display: inline-block;
+  background: #008c8c;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 2px;
+  margin-bottom: 110px;
+}
+
+.featured-books h2 {
+  text-align: center;
+  padding-bottom: 20px;
+}
+.featured-books .main-div {
+  display: flex;
+  justify-content: space-around;
+  white-space: nowrap;
+}
+.featured-books .book-item {
+  border: 2px solid gray;
+  width: 400px;
+  height: 290px;
+  text-align: center;
+  margin-left: 50px;
+  padding: 15px;
+  padding-top: 5px;
+}
+.featured-books .book-item:hover {
+  border-color: #61dddd;
+  box-shadow: 0 4px 8px rgba(97, 221, 221, 0.5);
+}
+.featured-books .book-item h3 {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 0.2;
+}
+.featured-books .book-item img {
+  height: 150px;
+  padding-top: 5px;
+  line-height: 0.1;
+}
+.featured-books .book-item .author {
+  font-size: 10px;
+  color: gray;
+  line-height: 1px;
+  margin-bottom: 2px;
+}
+.featured-books .book-item .type {
+  font-size: 12px;
+  color: #008c8c;
+  line-height: 1;
+}
+.featured-books .book-item .price {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1;
+  margin-bottom: 3px;
+}
+.featured-books .book-item .price .original-price {
+  font-weight: normal;
+  font-size: small;
+}
+.featured-books .book-item .learn-more {
+  border: 2px solid #008c8c;
+  padding: 4px 8px;
+}/*# sourceMappingURL=ft.css.map */
