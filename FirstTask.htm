@@ -9,12 +9,13 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
 </head>
+
 <body>
     <header>
         <div class="container0">
             <nav>
                 <img src="image/logo.png" alt="Logo" >
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 <ul class="navlinks">
                     <li><a href="#intro">Home</a></li>
                     <li><a href="#about">About</a></li>
@@ -25,7 +26,7 @@
                 </ul>
              
              <div class="headi"> 
-                <i class="fa-solid fa-magnifying-glass"></i>
+                <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a> 
                 &nbsp;
                 <i class="fa-solid fa-heart"></i>
              </div>
@@ -39,7 +40,7 @@
                 <h1><span class="highlight">WELCOME TO</span> </h1>
                 <h1>BOOK STORE</h1>
                 <p> Lorem ipsum dolor sit amet consectetur adipisicng elit. Assumenda molestias atque laborum non fuga ex deserunt. Exercitationem velite ducimus praesentium, obcaecati hic voluptate id tenetur fuga illum quidem omnis? Rerum?</p>
-                <a href="#" class="btn">Learn More</a>
+                <a href="#" onclick="learnmore()" class="btn">Learn More</a>
             </div>
             <div class="intro-image">
                 <img src="image/table.png" alt="Books">
@@ -51,7 +52,7 @@
 
     <section class="features">
         <div class="container2">
-            <div class="feature">
+            <div class="feature-responsive"  > <div class="feature">
                 <i  class="fa-solid fa-truck-fast"></i>
                 <h2>Fast Delivery</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
@@ -60,9 +61,9 @@
             <div class="feature">
                 <i  class="fa-duotone fa-solid fa-headset"></i>                <h2>24 x 7 Services</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            </div>
-
-            <div class="feature">
+            </div></div>
+           
+            <div class="feature-responsive" ><div class="feature">
                 <i  class="fa-solid fa-tag"></i>
                 <h2>Best Deal</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
@@ -72,7 +73,8 @@
                 <i class="fa-solid fa-lock"></i>
                 <h2>Secure Payment</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            </div>
+            </div></div>
+            
         </div>
     </section>
     
@@ -95,7 +97,8 @@
 
     <section  id="featured" class="featured-books">
         <h2>Featured Books</h2>
-        <div class="main-div scrollable-row " >
+        <div class="main-div scrollable-row  " >
+            <div  class="responsive" >
             <div class="book-item">
                 <img src="image/book_1.jpg" alt="Book 1">
                 <h3>Featured Books</h3>
@@ -103,7 +106,7 @@
                 <p class="type">Thriller, Horror, Romance</p>
                 <p class="price">$25.50 <span class="original-price"><sub><del>$28.60</del></sub></span>
                 </p>
-                <button class="learn-more">Learn More</button>
+                <button onclick="f1()" class="learn-more">Learn More</button>
             </div>
             
             <div class="book-item">
@@ -113,7 +116,7 @@
                 <p class="type">Thriller, Horror, Romance</p>
                 <p class="price">$25.50 <span class="original-price"><sub><del>$28.60</del></sub></span>
                 </p>
-                <button class="learn-more">Learn More</button>
+                <button onclick="f1()"  class="learn-more">Learn More</button>
             </div>
             
             <div class="book-item">
@@ -123,7 +126,7 @@
                 <p class="type">Thriller, Horror, Romance</p>
                 <p class="price">$25.50 <span class="original-price"><sub><del>$28.60</del></sub></span>
                 </p>
-                <button class="learn-more">Learn More</button>
+                <button onclick="f1()"  class="learn-more">Learn More</button>
             </div>
            
 
@@ -134,10 +137,11 @@
                 <p class="type">Thriller, Horror, Romance</p>
                 <p class="price">$25.50 <span class="original-price"><sub><del>$28.60</del></sub></span>
                 </p>
-                <button class="learn-more">Learn More</button>
+                <button onclick="f1()"  class="learn-more">Learn More</button>
+            </div>
             </div>
             
-
+            <div  class="responsive" >
             <div class="book-item">
                 <img src="image/book_5.jpg" alt="Book 5">
                 <h3>Featured Books</h3>
@@ -145,7 +149,7 @@
                 <p class="type">Thriller, Horror, Romance</p>
                 <p class="price">$25.50 <span class="original-price"><sub><del>$28.60</del></sub></span>
                 </p>
-                <button class="learn-more">Learn More</button>
+                <button onclick="f1()"  class="learn-more">Learn More</button>
             </div>
             
 
@@ -156,7 +160,7 @@
                 <p class="type">Thriller, Horror, Romance</p>
                 <p class="price">$25.50 <span class="original-price"><sub><del>$28.60</del></sub></span>
                 </p>
-                <button class="learn-more">Learn More</button>
+                <button onclick="f1()"  class="learn-more">Learn More</button>
             </div>
             
 
@@ -167,7 +171,7 @@
                 <p class="type">Thriller, Horror, Romance</p>
                 <p class="price">$25.50 <span class="original-price"><sub><del>$28.60</del></sub></span>
                 </p>
-                <button class="learn-more">Learn More</button>
+                <button onclick="f1()"  class="learn-more">Learn More</button>
             </div>
             
 
@@ -178,10 +182,11 @@
                 <p class="type">Thriller, Horror, Romance</p>
                 <p class="price">$25.50 <span class="original-price"><sub><del>$28.60</del></sub></span>
                 </p>
-                <button class="learn-more">Learn More</button>
+                <button onclick="f1()"  class="learn-more">Learn More</button>
+            </div>
             </div>
             
-
+            <div  class="responsive" >      
             <div class="book-item">
                 <img src="image/book_9.jpg" alt="Book 9">
                 <h3>Featured Books</h3>
@@ -189,7 +194,7 @@
                 <p class="type">Thriller, Horror, Romance</p>
                 <p class="price">$25.50 <span class="original-price"><sub><del>$28.60</del></sub></span>
                 </p>
-                <button class="learn-more">Learn More</button>
+                <button onclick="f1()"  class="learn-more">Learn More</button>
             </div>
             
             <div class="book-item">
@@ -199,7 +204,7 @@
                 <p class="type">Thriller, Horror, Romance</p>
                 <p class="price">$25.50 <span class="original-price"><sub><del>$28.60</del></sub></span>
                 </p>
-                <button class="learn-more">Learn More</button>
+                <button onclick="f1()"  class="learn-more">Learn More</button>
             </div>
             
             
@@ -211,7 +216,7 @@
                 <p class="type">Thriller, Horror, Romance</p>
                 <p class="price">$25.50 <span class="original-price"><sub><del>$28.60</del></sub></span>
                 </p>
-                <button class="learn-more">Learn More</button>
+                <button onclick="f1()"  class="learn-more">Learn More</button>
             </div>
             
 
@@ -222,10 +227,11 @@
                 <p class="type">Thriller, Horror, Romance</p>
                 <p class="price">$25.50 <span class="original-price"><sub><del>$28.60</del></sub></span>
                 </p>
-                <button class="learn-more">Learn More</button>
+                <button onclick="f1()"  class="learn-more">Learn More</button>
+            </div>
             </div>
            
-
+            <div  class="responsive" >
             <div class="book-item">
                 <img src="image/book_13.png" alt="Book 13">
                 <h3>Featured Books</h3>
@@ -233,7 +239,7 @@
                 <p class="type">Thriller, Horror, Romance</p>
                 <p class="price">$25.50 <span class="original-price"><sub><del>$28.60</del></sub></span>
                 </p>
-                <button class="learn-more">Learn More</button>
+                <button onclick="f1()"  class="learn-more">Learn More</button>
             </div>
             
 
@@ -244,12 +250,13 @@
                 <p class="type">Thriller, Horror, Romance</p>
                 <p class="price">$25.50 <span class="original-price"><sub><del>$28.60</del></sub></span>
                 </p>
-                <button class="learn-more">Learn More</button>
+                <button onclick="f1()" x class="learn-more">Learn More</button>
+            </div>
             </div>
 
         </div>
     </section>
-</section>
+
 <section id="Arrivals" class="new-arrival">
  
     <h1>New Arrivals</h1>
@@ -266,7 +273,7 @@
        
     </div> 
     <div>
-            <button class="learn-more1">learn more</button>
+            <button onclick="f2()" class="learn-more1">learn more</button>
             </div>
             </div>
 
@@ -282,7 +289,7 @@
        
     </div> 
     <div>
-            <button class="learn-more1">learn more</button>
+            <button onclick="f2()"  class="learn-more1">learn more</button>
             </div>
             </div>
             
@@ -298,7 +305,7 @@
        
     </div> 
     <div>
-            <button class="learn-more1">learn more</button>
+            <button onclick="f2()"  class="learn-more1">learn more</button>
             </div>
             </div>
             
@@ -314,7 +321,7 @@
        
     </div> 
     <div>
-            <button class="learn-more1">learn more</button>
+            <button onclick="f2()"  class="learn-more1">learn more</button>
             </div>
             </div>
 
@@ -330,7 +337,7 @@
        
     </div> 
     <div>
-            <button class="learn-more1">learn more</button>
+            <button onclick="f2()"  class="learn-more1">learn more</button>
             </div>
             </div>
     </div>
@@ -351,7 +358,7 @@
        
     </div> 
     <div>
-            <button class="learn-more1">learn more</button>
+            <button onclick="f2()"  class="learn-more1">learn more</button>
             </div>
             </div>
 
@@ -367,7 +374,7 @@
        
     </div> 
     <div>
-            <button class="learn-more1">learn more</button>
+            <button onclick="f2()"  class="learn-more1">learn more</button>
             </div>
             </div>
             
@@ -383,7 +390,7 @@
        
     </div> 
     <div>
-            <button class="learn-more1">learn more</button>
+            <button onclick="f2()"  class="learn-more1">learn more</button>
             </div>
             </div>
             
@@ -399,7 +406,7 @@
        
     </div> 
     <div>
-            <button class="learn-more1">learn more</button>
+            <button onclick="f2()"  class="learn-more1">learn more</button>
             </div>
             </div>
 
@@ -415,7 +422,7 @@
        
     </div> 
     <div>
-            <button class="learn-more1">learn more</button>
+            <button onclick="f2()"  class="learn-more1">learn more</button>
             </div>
             </div>
     </div>
@@ -423,7 +430,8 @@
 
     <section id="Reviews" class="reviews">
         <h1>Reviews</h1>
-        <div class="rev">
+        <div  class="rev">
+            <div class="responsive1">
         <div class="top">
             <div class="review_no">
                 <img src="image/review_1.png" alt="review1">
@@ -439,7 +447,7 @@
                 <i class="fa-solid fa-quote-right"></i>
             </div>
         </div>
-
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <div class="top">
             <div class="review_no">
                 <img src="image/review_2.png" alt="review2">
@@ -455,8 +463,9 @@
                 <i class="fa-solid fa-quote-right"></i>
             </div>
         </div>
+            </div>
 
-
+         <div class="responsive1">
         <div class="top">
             <div class="review_no">
                 <img src="image/review_3.png" alt="review3">
@@ -472,6 +481,7 @@
                 <i class="fa-solid fa-quote-right"></i>
             </div>
         </div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
         <div class="top">
             <div class="review_no">
@@ -488,6 +498,7 @@
                 <i class="fa-solid fa-quote-right"></i>
             </div>
         </div>
+         </div>
 
     </section>
   <br><br> 
@@ -541,34 +552,45 @@
     <footer>
         <div class="mainfooterdiv">
          <div class="footerlogo">
-         <img src="image/logo.png">
+         <a href="#intro"><img src="image/logo.png"></a> 
          <p>Lorem,&nbsp;&nbsp; ipsum&nbsp;&nbsp; dolor&nbsp;&nbsp; sit&nbsp;&nbsp;&nbsp; amet<br> consectetur&nbsp; adipisicing&nbsp; elit.&nbsp; Est<br> quaeratips a aspernatur ad sequi,<br> dolore&nbsp;&nbsp;&nbsp; eveniet&nbsp;&nbsp;&nbsp; vitae&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; quasi.<br> Excepturi ipsa odio impedit sequi<br> at&nbsp; hic&nbsp; velit,&nbsp; minus&nbsp;&nbsp; vero&nbsp;&nbsp; sint.<br> Voluptas?</p>
          </div>
          <div class="quick-link">
              <h2>Quick Link</h2>
-             <p>Home<br>About<br>Featured<br>Arrivals<br>Reviews<br>Blog</p>
+             <p> <a href="#">Home</a> <br><a  href="#about">About</a> <br><a href="#featured">Featured</a> <br><a href="#Arrivals"> Arrivals</a><br><a href="#Reviews">Reviews</a> <br> <a href="#blog">Blog</a> </p>
              
          </div>
          <div class="contact-info">
              <h2>Contact info</h2>
-            <div class="d"><p><div style="display: flex;"><i class="fa-solid fa-phone">&nbsp;</i><p>0599845248</p></div><br><div style="display: flex;"> <i class="fa-solid fa-phone">&nbsp;</i><p>0599845248</p>&nbsp;</div><br><div style="display: flex;"><i class="fa-regular fa-envelope"></i>&nbsp;<p>0599845248</p></div></p></div>
+            <div class="d"><p><div style="display: flex;"><i class="fa-solid fa-phone">&nbsp;</i><p>0599845248</p></div><br><div style="display: flex;"> <i class="fa-solid fa-phone">&nbsp;</i><p>0599845248</p>&nbsp;</div><br><div style="display: flex;"><i class="fa-regular fa-envelope"></i>&nbsp;<a href="mailto:lana@example.com">bookstore123@gmail.com</a></div></p></div>
              
 
          </div>
          <div class="follow-us">
              <h2>Follow Us</h2>
              <div class="faceicon">
-                 <i class="fa-brands fa-facebook"></i>
-                 
-                 <i class="fa-brands fa-instagram"></i>
-                 
-                 <i class="fa-brands fa-twitter"></i>
-                 
-                 <i class="fa-brands fa-linkedin-in"></i>
+                <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+                
+                <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                  
+                <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer">
+                    <i class="fa-brands fa-twitter"></i>
+                </a>
+
+                  
+                <a href="https://www.linkedin-in.com" target="_blank" rel="noopener noreferrer">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+                
              </div>
          </div>
          <div class="footer-section new-letter1">
             <h3>Newsletter</h3>
+            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
             <input type="email" placeholder="you email id here">
             <br><br><br><br><br><br>
             <button>Subscribe</button>
@@ -576,9 +598,9 @@
                 
             </div>
             <div class="footer-bottom">
-                <p>Design By <a href="#">WT Master Code</a></p>
+                <p>Design By <i class="fa-solid fa-face-smile"></i><a href="#">WT Master Code</a></p>
             </div>
         </footer>
-    
+        <script src="script.js" defer></script>
 </body>
 </html>
